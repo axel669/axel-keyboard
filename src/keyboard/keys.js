@@ -1,0 +1,120 @@
+const standardKeys = [
+    60,
+    ["`", "Backquote", 4, 1],
+    ["1", "Digit1", 4, 1, "key-number"],
+    ["2", "Digit2", 4, 1, "key-number"],
+    ["3", "Digit3", 4, 1, "key-number"],
+    ["4", "Digit4", 4, 1, "key-number"],
+    ["5", "Digit5", 4, 1, "key-number"],
+    ["6", "Digit6", 4, 1, "key-number"],
+    ["7", "Digit7", 4, 1, "key-number"],
+    ["8", "Digit8", 4, 1, "key-number"],
+    ["9", "Digit9", 4, 1, "key-number"],
+    ["0", "Digit0", 4, 1, "key-number"],
+    ["-", "Minus", 4, 1],
+    ["=", "Equal", 4, 1],
+    ["back", "Backspace", 8, 1],
+
+    ["tab", "Tab", 6, 1],
+    ["q", "KeyQ", 4, 1],
+    ["w", "KeyW", 4, 1],
+    ["e", "KeyE", 4, 1],
+    ["r", "KeyR", 4, 1],
+    ["t", "KeyT", 4, 1],
+    ["y", "KeyY", 4, 1],
+    ["u", "KeyU", 4, 1],
+    ["i", "KeyI", 4, 1],
+    ["o", "KeyO", 4, 1],
+    ["p", "KeyP", 4, 1],
+    ["[", "BracketLeft", 4, 1],
+    ["]", "BracketRight", 4, 1],
+    ["\\", "Backslash", 6, 1],
+
+    ["CAPS", "CapsLock", 7, 1],
+    ["a", "KeyA", 4, 1],
+    ["s", "KeyS", 4, 1],
+    ["d", "KeyD", 4, 1],
+    ["f", "KeyF", 4, 1],
+    ["g", "KeyG", 4, 1],
+    ["h", "KeyH", 4, 1],
+    ["j", "KeyJ", 4, 1],
+    ["k", "KeyK", 4, 1],
+    ["l", "KeyL", 4, 1],
+    [";", "Semicolon", 4, 1],
+    ["'", "Quote", 4, 1],
+    ["ENTER", "Enter", 9, 1],
+
+    ["SHIFT", "ShiftLeft", 9, 1],
+    ["z", "KeyZ", 4, 1],
+    ["x", "KeyX", 4, 1],
+    ["c", "KeyC", 4, 1],
+    ["v", "KeyV", 4, 1],
+    ["b", "KeyB", 4, 1],
+    ["n", "KeyN", 4, 1],
+    ["m", "KeyM", 4, 1],
+    [",", "Comma", 4, 1],
+    [".", "Period", 4, 1],
+    ["/", "Slash", 4, 1],
+    ["SHIFT", "ShiftRight", 11, 1],
+
+    ["CTRL", "ControlLeft", 6, 1],
+    ["WNDW", "MetaLeft", 4, 1],
+    ["ALT", "AltLeft", 5, 1],
+    ["SPACE", "Space", 26, 1],
+    ["ALT", "AltRight", 5, 1],
+    ["WNDW", "MetaRight", 4, 1],
+    ["MENU", "ContentMenu", 4, 1],
+    ["CTRL", "ControlRight", 6, 1],
+]
+
+const homeClusterKeys = [
+    12,
+    ["INS", "Insert", 4, 1],
+    ["HOME", "Home", 4, 1],
+    ["PG UP", "PageUp", 4, 1],
+
+    ["DEL", "Delete", 4, 1],
+    ["END", "End", 4, 1],
+    ["PG DWN", "PageDown", 4, 1],
+
+    ["", "", 12, 1],
+
+    ["", "", 4, 1],
+    ["▲", "ArrowUp", 4, 1],
+    ["", "", 4, 1],
+
+    ["◀", "ArrowLeft", 4, 1],
+    ["▼", "ArrowDown", 4, 1],
+    ["▶", "ArrowRight", 4, 1],
+]
+
+const numpadKeys = [
+    16,
+    ["NUM", "NumLock", 4, 1],
+    ["/", "NumpadDivide", 4, 1],
+    ["*", "NumpadMultiply", 4, 1],
+    ["-", "NumpadSubtract", 4, 1],
+
+    ["7", "Numpad7", 4, 1],
+    ["8", "Numpad8", 4, 1],
+    ["9", "Numpad9", 4, 1],
+    ["+", "NumpadAdd", 4, 2],
+
+    ["4", "Numpad4", 4, 1],
+    ["5", "Numpad5", 4, 1],
+    ["6", "Numpad6", 4, 1],
+
+    ["1", "Numpad1", 4, 1],
+    ["2", "Numpad2", 4, 1],
+    ["3", "Numpad3", 4, 1],
+    ["Enter", "NumpadEnter", 4, 2],
+
+    ["0", "Numpad0", 8, 1],
+    [".", "NumpadDecimal", 4, 1],
+]
+
+export {
+    standardKeys,
+    homeClusterKeys,
+    numpadKeys,
+}
